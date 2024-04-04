@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.body-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "hd hd hd hd hd hd"
+    "mn mn mn mn mn mn"
+    "ft ft ft ft ft ft"
+    ;
+}
+
+header {
+    grid-area: hd;
+}
+
+main {
+    grid-area: mn;
+}
+
+footer {
+    grid-area: ft;
+}
+
+.logo {
+    width: 200px;
+    
+}
