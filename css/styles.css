@@ -2,20 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--secondary);
+}
+
+:root {
+    --primarycolor : rgb(0, 0, 0);
+    --secondary : rgb(6, 250, 18);
 }
 
 .body-container {
     display: grid;
+    background-color: black;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "mn mn mn mn mn mn"
-    "ft ft ft ft ft ft"
-    ;
+    "ft ft ft ft ft ft";
 }
 
 header {
     grid-area: hd;
+    background-color: var(--primarycolor);
+    margin-top: 5px;
+    border-bottom: 1px solid ;
 }
 
 main {
@@ -28,5 +37,47 @@ footer {
 
 .logo {
     width: 200px;
-    
+    background-color: var(--secondary);
+    border-radius: 4px;
+}
+
+.nav-container {
+    margin-top: 5px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: rgb(14, 228, 6);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        margin-top: 9px;
+    }
+
+    .nav-container a {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-container {
+        margin-top: 1px;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-container a {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
 }
