@@ -24,6 +24,7 @@ header {
     grid-area: hd;
     background-color: var(--primarycolor);
     margin-top: 5px;
+    padding-bottom: 6px;
     border-bottom: 1px solid ;
 }
 
@@ -46,10 +47,13 @@ footer {
 }
 
 .nav-container a {
-    text-decoration: none;
     color: rgb(14, 228, 6);
     font-size: 30px;
     margin-left: 10px;
+}
+
+a.current-page {
+    color: white;
 }
 
 @media (max-width: 768px) {
