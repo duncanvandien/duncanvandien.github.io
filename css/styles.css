@@ -14,6 +14,7 @@
     display: grid;
     background-color: black;
     grid-template-columns: repeat(6, 1fr);
+    overflow: hidden;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "mn mn mn mn mn mn"
@@ -44,6 +45,7 @@ footer {
 
 .nav-container {
     margin-top: 5px;
+    padding-left: 5%;
 }
 
 .nav-container a {
@@ -54,6 +56,42 @@ footer {
 
 a.current-page {
     color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.x {
+  animation: x 7s linear infinite alternate;
+}
+
+.y {
+  animation: y 4s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX( calc(95vw - 100px) );
+  }
+}
+
+@keyframes y {
+  100% {
+    transform: translateY( calc(95vh - 100px) );
+  }
+}
+
+@keyframes x {
+  100% {
+    transform: translateX( calc(95vw - 100px) );
+  }
+}
+
+@keyframes y {
+  100% {
+    transform: translateY( calc(95vh - 100px) );
+  }
 }
 
 @media (max-width: 768px) {
