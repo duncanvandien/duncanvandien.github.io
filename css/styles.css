@@ -58,28 +58,34 @@ a.current-page {
     color: white;
 }
 
-body {
-  margin: 0;
+.a-box {
+    position: absolute;
 }
 
-.x {
+.x-about-me {
   animation: x 7s linear infinite alternate;
 }
 
-.y {
+.y-about-me {
   animation: y 4s linear infinite alternate;
 }
 
-@keyframes x {
-  100% {
-    transform: translateX( calc(95vw - 100px) );
+
+.x-project {
+    animation: x 9s linear infinite alternate;
   }
+  
+.y-project {
+    animation: y 7s linear infinite alternate;
 }
 
-@keyframes y {
-  100% {
-    transform: translateY( calc(95vh - 100px) );
-  }
+
+.x-contact {
+    animation: x 13s linear infinite alternate;
+}
+  
+.y-contact {
+    animation: y 2s linear infinite alternate;
 }
 
 @keyframes x {
