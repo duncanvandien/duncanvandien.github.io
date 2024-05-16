@@ -6,19 +6,13 @@
 }
 
 :root {
-    --primarycolor : rgb(0, 0, 0);
-    --secondary : rgb(6, 250, 18);
+    --primarycolor: rgb(0, 0, 0);
+    --secondary: rgb(6, 250, 18);
 }
 
 .body-container {
-    display: grid;
     background-color: black;
-    grid-template-columns: repeat(6, 1fr);
     overflow: hidden;
-    grid-template-areas: 
-    "hd hd hd hd hd hd"
-    "mn mn mn mn mn mn"
-    "ft ft ft ft ft ft";
 }
 
 header {
@@ -26,7 +20,7 @@ header {
     background-color: var(--primarycolor);
     margin-top: 5px;
     padding-bottom: 6px;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 }
 
 main {
@@ -62,43 +56,51 @@ a.current-page {
     position: absolute;
 }
 
+.a-box div {
+    font-size: 50px;
+}
+
+.a-box div:hover {
+    font-size: 55px;
+    color: blue;
+}
+
 .x-about-me {
-  animation: x 7s linear infinite alternate;
+    animation: x 17s linear infinite alternate;
 }
 
 .y-about-me {
-  animation: y 4s linear infinite alternate;
-}
-
-
-.x-project {
-    animation: x 9s linear infinite alternate;
-  }
-  
-.y-project {
     animation: y 7s linear infinite alternate;
 }
 
+.x-project {
+    animation: x 15s linear infinite alternate;
+}
+
+.y-project {
+    animation: y 5s linear infinite alternate;
+}
 
 .x-contact {
     animation: x 13s linear infinite alternate;
 }
-  
+
 .y-contact {
-    animation: y 2s linear infinite alternate;
+    animation: y 10s linear infinite alternate;
 }
 
 @keyframes x {
-  100% {
-    transform: translateX( calc(95vw - 100px) );
-  }
+    100% {
+        transform: translateX(calc(95vw - 100px));
+    }
 }
 
 @keyframes y {
-  100% {
-    transform: translateY( calc(95vh - 100px) );
-  }
+    100% {
+        transform: translateY(calc(95vh - 100px));
+    }
 }
+
 
 @media (max-width: 768px) {
 
