@@ -68,27 +68,6 @@ a.current-page {
     color: blue;
 }
 
-.card {
-    background-color: black;
-    border: 1px solid rgb(6, 250, 18);
-    text-decoration: none;
-    width: 100%;
-}
-
-.card:hover {
-    border: 2px solid white;
-}
-
-.card-body{
-    text-align: center;
-    width: 100%;
-}
-
-.card-title {
-    color: var(--secondary);
-}
-
-
 .x-about-me {
     animation: x 17s linear infinite alternate;
 }
@@ -121,7 +100,7 @@ a.current-page {
 
 @keyframes y {
     100% {
-        transform: translateY(calc(95vh - 100px));
+        transform: translateY(calc(94vh - 100px));
     }
 }
 
