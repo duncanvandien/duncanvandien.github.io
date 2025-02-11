@@ -5,13 +5,14 @@ const bkeBtn = document.querySelector('.bke-btn');
 const duckHuntBtn = document.querySelector('.duck-hunt-btn');
 const catalogusBtn = document.querySelector('.catalogus-btn');
 const dashboardBtn = document.querySelector('.dashboard-btn');
+const reviewProjectBtn = document.querySelector('.review-project-btn');
 
 const hogerLagerText = 
 `<h1 class="text-center">hoger lager</h1>
 <img class="img-fluid" src="/img/hogerlager.png" alt="">
 <p class="text-center">Het hoger lager spel was de eerste project die ik heb moeten maken van school, het was een vrij simpel project maar met de hoeveel heid kennis die ik had van progameren was het best pittig. dit project heb ik met 2 andere klas genoten en het ging niet helemaal vlekken loos maar we hebben het uit eindelijk wel gelukt.
 </p>
-<a href="https://duncanvandien.github.io/hoger-lager/">bekijk hier de project</a>
+<a href="https://github.com/duncanvandien/hoger-lager">bekijk hier de project</a>
 `
 
 const escapeRoomText = 
@@ -19,7 +20,7 @@ const escapeRoomText =
 <img class="img-fluid" src="/img/escaperoom.png" alt="">
 <p class="text-center">De escaperoom maken was best leuk maar wel pittig om het te laten werken hoe ik het wilden want we nogsteends niet genoeg verstandt van coderen waardoor we heel lang bezig waren met het neer zeten van objecten. deze project hebben we in een groepje van 5 en waar iederen aan zij egen escape room moets werken, het idee was dat we een verhaal moestem verzinnen waar de escaperoom over gaat en daar dan iets mee doen.
 </p>
-<a href="https://duncanvandien.github.io/escapeRoom/">bekijk hier de project</a>
+<a href="https://github.com/duncanvandien/escapeRoom">bekijk hier de project</a>
 `
 
 const bkeText = 
@@ -54,6 +55,14 @@ const dashboardText =
 <a href="https://github.com/ROCMondriaanTIN/sd23-p04-project-dashboard-minder">bekijk hier de project</a>
 `
 
+const reviewProjectText = 
+`<h1 class="text-center">reviewYourExperience</h1>
+<img class="img-fluid" src="/img/dashboard.png" alt="">
+<p class="text-center"> Voor deze project moesten wij een website maken waar mensen hun mening kunnen geven over een game en ook kunnen kopen. We hebben hier voor php gebruikt wat we ook door het eerst hebben gedaan. We hebben de eerste periode met ze 2e er aan gewerkt, maar de 3e periode kwam er iemand bij. Ik heb de inlog pagina gemaakt met de administratie pagina. We hebben hier voor php, html/bootstrap gebruikt.
+</p>
+<a href="https://github.com/ROCMondriaanTIN/sd23-p01-reviewyourexperience-l-d">bekijk hier de project</a>
+`
+
 
 hogerLagerBtn.addEventListener('click', function(){
     projectInfo.innerHTML = hogerLagerText
@@ -77,4 +86,8 @@ catalogusBtn.addEventListener('click', function(){
 
 dashboardBtn.addEventListener('click', function(){
     projectInfo.innerHTML = dashboardText
+})
+
+reviewProjectBtn.addEventListener('click', function(){
+    projectInfo.innerHTML = reviewProjectText
 })
