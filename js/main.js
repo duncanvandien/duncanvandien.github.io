@@ -50,14 +50,14 @@ const catalogusText =
 const dashboardText = 
 `<h1 class="text-center">dashboard</h1>
 <img class="img-fluid" src="/img/dashboard.png" alt="">
-<p class="text-center"> Bij project dashboard mocht je zelf verzinnen wat voor dashboard je wou maken. Ik heb gekozen voor crypto en dan voor render token. Je moest 4 canvas grafieken of diagrammen hebben en daar onder 3 berekeningen over de in houd van de grafiek. Ik heb geleerd hoe ik met een canvas element moet werken en ben beter geworden met databases maken. Ik heb voor dit project javascript en html/bootstap.
+<p class="text-center"> Bij project dashboard mocht je zelf verzinnen wat voor dashboard je wou maken. Ik heb gekozen voor crypto en dan voor render token. Je moest 4 canvas grafieken of diagrammen hebben en daar onder 3 berekeningen over de in houd van de grafiek. Ik heb geleerd hoe ik met een canvas element moet werken en ben beter geworden met databases maken. Ik heb voor dit project javascript en html/bootstap. (de data base werkte niet meer daarom staat er niets in de grafiek, de code is leuker om naar te kijken)
 </p>
 <a href="https://github.com/ROCMondriaanTIN/sd23-p04-project-dashboard-minder">bekijk hier de project</a>
 `
 
 const reviewProjectText = 
 `<h1 class="text-center">reviewYourExperience</h1>
-<img class="img-fluid" src="/img/dashboard.png" alt="">
+<img class="img-fluid" src="/img/reviewImg.png" alt="">
 <p class="text-center"> Voor deze project moesten wij een website maken waar mensen hun mening kunnen geven over een game en ook kunnen kopen. We hebben hier voor php gebruikt wat we ook door het eerst hebben gedaan. We hebben de eerste periode met ze 2e er aan gewerkt, maar de 3e periode kwam er iemand bij. Ik heb de inlog pagina gemaakt met de administratie pagina. We hebben hier voor php, html/bootstrap gebruikt.
 </p>
 <a href="https://github.com/ROCMondriaanTIN/sd23-p01-reviewyourexperience-l-d">bekijk hier de project</a>
